@@ -1,0 +1,13 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ztestappszDebugMe.controller.DebugMe" displayBlock="true">
+	<App>
+		<pages> 
+			<Page title="{i18n>title}">
+			   <content>
+			   	<Input placeholder="Enter first number" id="input1"/> 
+			   	<Input placeholder="Enter first number" id="input2"/> 
+			   	<Button text="Add" press="cmdAdd" width="100%"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
