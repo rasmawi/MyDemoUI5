@@ -3,8 +3,8 @@
 		<pages> 
 			<Page title="{i18n>title}">
 			   <content>
-			   	<Input placeholder="Enter first number" id="input1"/> 
-			   	<Input placeholder="Enter first number" id="input2"/> 
+			   	<Input placeholder="Enter first number 1" id="input1"/> 
+			   	<Input placeholder="Enter first number 2" id="input2"/> 
 			   	<Button text="Add" press="cmdAdd" width="100%"/>
 				</content>
 			</Page>
