@@ -10,6 +10,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", 'sap/m/MessageToast'], function(Con
 			var second = parseInt(this.getView().byId("input2").getValue());
 			var sum = first + second;
 			MessageToast.show("Sum is " + sum);
+				
 		}
 	});
 });
